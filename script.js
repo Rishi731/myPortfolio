@@ -11,4 +11,8 @@ document.querySelector('.hamburger').addEventListener("click", ()=>{
             document.querySelector('.bi1').style.display = 'inline';
         }, 300);
     }
-})
+});
+function submitForm() {
+    alert("Your response has been submitted! ");
+    window.open("/index.html");
+}
