@@ -14,5 +14,5 @@ document.querySelector('.hamburger').addEventListener("click", ()=>{
 });
 function submitForm() {
     alert("Your response has been submitted! ");
-    window.open("https://rishi731.github.io/myPortfolio/");
+//     window.open("https://rishi731.github.io/myPortfolio/");
 }
