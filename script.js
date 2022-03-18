@@ -14,5 +14,5 @@ document.querySelector('.hamburger').addEventListener("click", ()=>{
 });
 function submitForm() {
     alert("Your response has been submitted! ");
-    window.open("/index.html");
+    window.open("/myPortfolio/index.html");
 }
