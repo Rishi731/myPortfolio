@@ -229,8 +229,18 @@ p{
     background-color: green;
 }
 
+.hundreds{
+    width: 160px;
+    background-color: green;
+}
+
 .s5{
     width: 180px;
+    background-color: blue;
+}
+
+.s5s{
+    width: 120px;
     background-color: blue;
 }
 
@@ -239,8 +249,18 @@ p{
     background-color: yellow;
 }
 
+.fiftys{
+    width: 80px;
+    background-color: yellow;
+}
+
 .t5{
     width: 60px;
+    background-color: red;
+}
+
+.t5s{
+    width: 40px;
     background-color: red;
 }
 
