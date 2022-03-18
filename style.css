@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(104, 101, 101);
+    /* width: 230px; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 42px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 27px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    color: white;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 88vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(129, 164, 216); */
+    height: 55vh;
+    width: 80vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 2.5em;
+}
+
+.name{
+    font-size: 2.6em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about{
+    font-size: 2.2em;
+}
+
+.moreabout{
+    font-size: 1.9em;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.buttons{
+    margin-top: 34px;
+    font-size: 10px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border: 2px solid black;
+    border-radius: 19px;
+    /* border-style: none; */
+    color: white;
+    background-color: rgb(145, 160, 160);
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-color: black;
+    color: rgb(145, 160, 160);
+}
+
+.devPic img{
+    height: 55vh;
+    border-radius: 30px;
+}
+
+.contactform{
+    padding: 0 34px;
+    /* padding-top: 110px; */
+    font-family: 'Ubuntu', sans-serif;
+    margin: 88px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* padding: 12px 0; */
+    /* margin-top: 50px; */
+}
+
+.contactform form div{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 20vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form{
+    margin: 0 40px;
+}
+
+.contactform form div textarea{
+    /* width: 20vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.containersss{
+    margin: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.project{
+    margin: 80px 88px;
+}
+
+.blogContainer{
+    margin: 80px 88px;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro{
+    margin: 80px 88px;
+}
+
+.intro h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillbox{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 240px;
+    background-color: green;
+}
+
+.s5{
+    width: 180px;
+    background-color: blue;
+}
+
+.fifty{
+    width: 120px;
+    background-color: yellow;
+}
+
+.t5{
+    width: 60px;
+    background-color: red;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    left: 10px;
+}
+
+.bi{
+    margin-left: 10px;
+}
+
+.bi1{
+    margin-left: 145px;
+}
+
+@media (max-width: 1400px) {
+    .buttons{
+        font-size: 7px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .intro, .blogContainer, .contactform, .project{
+        margin: 50px 8px;
+    }
+}
