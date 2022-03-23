@@ -116,7 +116,7 @@
 .contactform{
     padding: 0 34px;
     font-family: 'Ubuntu', sans-serif;
-    margin: 88px;
+    margin: 80px;
 }
 
 .contactform h1{
@@ -290,7 +290,10 @@ p{
     .devPic{
         display: none;
     }
-    .intro, .blogContainer, .contactform, .project{
-        margin: 50px 8px;
+    .intro, .blogContainer, .project{
+        margin: 90px 8px;
+    }
+    .contactform{
+        margin: 90px 0;
     }
 }
