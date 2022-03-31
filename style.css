@@ -297,3 +297,9 @@ p{
         margin: 90px 0;
     }
 }
+
+@media (max-width: 340px) {
+    .infoContainer{
+        margin-top: 240px;
+    }
+}
