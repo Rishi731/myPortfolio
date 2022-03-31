@@ -290,6 +290,9 @@ p{
     .devPic{
         display: none;
     }
+    .infoContainer{
+        margin-top: 110px;
+    }
     .intro, .blogContainer, .project{
         margin: 90px 8px;
     }
