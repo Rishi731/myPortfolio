@@ -55,30 +55,29 @@
         <div class="main">
             <div class="contactform">
                 <h1>Contact Me</h1>
-                <form>
+                <form action="https://formspree.io/rishisrivastavaa.it@gmail.com" method="POST">
                     <div class="mb-3">
                         <label for="clientname" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="clientname" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="clientname" name="Name" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3">
                         <label for="clientemail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="clientemail" name="_replyto" aria-describedby="emailHelp" required>
                         <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="clientphone" class="form-label">Phone</label>
-                        <input type="tel" class="form-control" id="clientphone">
+                        <input type="tel" class="form-control" id="clientphone" name="Phone">
                     </div>
                     <div class="mb-3">
                         <label for="clientenquiry" class="form-label">Enquiry</label>
-                        <!-- <input type="text" class="form-control" id="clientenquiry" aria-describedby="emailHelp"> -->
-                        <textarea id="clientenquiry" cols="8" rows="3"></textarea>
+                        <textarea id="clientenquiry" cols="8" rows="3" name="Enquiry"></textarea>
                     </div>
                     <div class="mb-3" id="form-check">
                         <input type="checkbox" class="form-check-input" id="isclient">
                         <label class="form-check-label" for="isclient">I want you to work on a project with me.</label>
                     </div>
-                    <button type="submit" class="btn btn-sm" onclick="submitForm()">Submit</button>
+                    <button type="submit" class="btn btn-sm">Submit</button>
                 </form>
             </div>
         </div>
