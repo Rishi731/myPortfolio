@@ -1,308 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&display=swap');
+<!doctype html>
+<html lang="en">
 
-*{
-    margin: 0;
-    padding: 0;
-    color: rgb(84, 180, 84);
-}
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-.sidebar{
-    position: absolute;
-    background-color: green;
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
 
-    /* width: 230px; */
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    height: 100vh;
-    transition: transform 0.3s ease-in;
-}
+    <title>Rishi Srivastava - Full Stack Developer, Programmer</title>
+</head>
 
-.sidebar nav{
-    padding: 42px;
-}
+<body style="background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success" style="position: fixed; width: 100%;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/myPortfolio/">myPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/myPortfolio/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/myPortfolio/intro.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/myPortfolio/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/myPortfolio/experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/myPortfolio/achievements.html">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/myPortfolio/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/myPortfolio/contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <div class="infoContainer">
+                <div class="devInfo"><br><br>
+                    <div class="hello">Hi i am</div>
+                    <div class="name">Rishi Anand Srivastava</div>
+                    <div class="about">Patent Engineer • Data Analytics Enthusiast</div>
+                    <div class="moreabout">Highly motivated individual, strong in design and integration with intuitive problem-solving skills. To secure a challenging and rewarding position in a reputed firm wherein I can utilize my skills for
+                        the growth of the company.</div>
+                    <div class="buttons">
+                        <a href="https://drive.google.com/file/d/1euobBk19tJOhpbeK354iwYU9qTBixjXe/view?usp=sharing" target="_blank">
+                            <button class="btn">Download Resume</button></a>
+                        <a href="/myPortfolio/contact.html"><button class="btn">Contact Me</button></a>
+                    </div>
+                </div>
+                <div class="devPic"><img src="img/Hand coding-bro.svg" alt="Rishi Srivastava"></div>
+            </div>
+        </div>
+    </div>
 
-.sidebar nav li{
-    list-style: none;
-    font-size: 25px;
-    padding: 27px 0;
-}
+    <!-- Optional JavaScript; choose one of the two! -->
 
-.sidebar nav li a{
-    text-decoration: none;
-    color: black;
-}
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
-.sidebar nav li a:hover{
-    color: white;
-}
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="script.js"></script>
+</body>
 
-.main{
-    width: 88vw;
-}
-
-.container{
-    display: flex;
-}
-
-.infoContainer{
-    /* background-color: rgb(129, 164, 216); */
-    height: 55vh;
-    width: 80vw;
-    margin: 110px auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.devInfo{
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Source Code Pro', monospace;
-}
-
-.hello{
-    font-size: 2.5em;
-}
-
-.name{
-    font-size: 2.6em;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.about{
-    font-size: 2.2em;
-}
-
-.moreabout{
-    font-size: 1.9em;
-    margin-top: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.buttons{
-    margin-top: 34px;
-    font-size: 10px;
-}
-
-.btn{
-    padding: 9px 14px;
-    border: 2px solid black;
-    border-radius: 19px;
-    color: white;
-    background-color: rgb(50, 136, 50);
-    font-weight: bold;
-    font-size: 2em;
-    margin: 3px 3px;
-    cursor: pointer;
-}
-
-.btn-sm{
-    font-size: 10px;
-    padding: 7px 13px;
-    margin: 10px 0;
-}
-
-.btn:hover{
-    background-color: green;
-    color: rgb(145, 160, 160);
-}
-
-.devPic img{
-    height: 55vh;
-    border-radius: 30px;
-}
-
-.contactform{
-    padding: 0 34px;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 80px;
-}
-
-.contactform h1{
-    font-family: 'Source Code Pro', monospace;
-}
-
-.contactform form div{
-    padding: 12px 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.contactform form div input{
-    border-radius: 5px;
-    margin: 6px 0 0 0;
-    padding: 3px;
-    color: black;
-}
-
-.contactform form{
-    margin: 0 40px;
-}
-
-.contactform form div textarea{
-    border-radius: 5px;
-    margin: 6px 0 0 0;
-    padding: 3px;
-    color: black;
-}
-
-#emailHelp{
-    font-size: 11px;
-    color: rgb(29, 99, 29);
-    margin: 0 5px;
-    padding: 3px 0 0 0;
-}
-
-#form-check{
-    flex-direction: row;
-}
-
-#form-check input{
-    width: 24px;
-    margin: 3px 0;
-}
-
-.blogItem{
-    margin: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.containersss{
-    margin: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-.project{
-    margin: 80px 88px;
-}
-
-.blogContainer{
-    margin: 80px 88px;
-}
-
-h1{
-    font-family: 'Ubuntu', sans-serif;
-}
-
-p{
-    font-family: 'Source Code Pro', monospace;
-}
-
-.intro{
-    margin: 80px 88px;
-}
-
-.intro h2{
-    font-family: 'Ubuntu', sans-serif;
-    margin: 12px;
-}
-
-.intro p{
-    font-family: 'Source Code Pro', monospace;
-    margin: 12px;
-}
-
-.skillcontainer{
-    padding: 12px;
-}
-
-.skillbox{
-    display: flex;
-    align-items: center;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 900;
-}
-
-.skill{
-    width: 265px;
-    height: 6px;
-    background-color: green;
-    border: 2px solid black;
-}
-
-.hundred{
-    width: 240px;
-    background-color: green;
-}
-
-.hundreds{
-    width: 160px;
-    background-color: green;
-}
-
-.s5{
-    width: 180px;
-    background-color: blue;
-}
-
-.s5s{
-    width: 120px;
-    background-color: blue;
-}
-
-.fifty{
-    width: 120px;
-    background-color: yellow;
-}
-
-.fiftys{
-    width: 80px;
-    background-color: yellow;
-}
-
-.t5{
-    width: 60px;
-    background-color: red;
-}
-
-.t5s{
-    width: 40px;
-    background-color: red;
-}
-
-.sidebarGo{
-    transform: translate(-443px, 0px);
-    position: absolute;
-}
-
-.hamburger{
-    position: absolute;
-    cursor: pointer;
-    top: 8px;
-    left: 10px;
-}
-
-.bi{
-    margin-left: 10px;
-}
-
-.bi1{
-    margin-left: 145px;
-}
-
-@media (max-width: 1400px) {
-    .buttons{
-        font-size: 7px;
-    }
-    .devInfo{
-        font-size: 10px;
-    }
-    .devPic{
-        display: none;
-    }
-    .infoContainer{
-        margin-top: 110px;
-    }
-    .intro, .blogContainer, .project{
-        margin: 90px 8px;
-    }
-    .contactform{
-        margin: 90px 0;
-    }
-}
-
-@media (max-width: 340px) {
-    .infoContainer{
-        margin-top: 240px;
-    }
-}
+</html>
